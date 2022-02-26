@@ -57,6 +57,7 @@ if (enemyHealth <= 0) {
 };
 
 for(var i = 0; i < enemyNames.length; i++) {
+    window.alert("Welcome to Round "+ (i+1));
     var pickedEnemyName = enemyNames[i];
     enemyHealth = 50;
     fight(pickedEnemyName);
